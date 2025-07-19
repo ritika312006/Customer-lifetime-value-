@@ -10,7 +10,8 @@ st.title("Customer Lifetime Value (CLV) - Prediction")
 st.markdown("This dashboard loads sales data directly from your project directory for CLV insights and sales trends.")
 
 # --- Read CSV directly from folder ---
-file_path = "online_retail_II(Year 2010-2011).csv"
+file_path = file_path = "OnlineRetail.csv"
+
 
 if os.path.exists(file_path):
     try:
